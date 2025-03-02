@@ -8,3 +8,32 @@ main:
     url: "/categories/"
   - title: "Tags"
     url: /tags/
+main:
+sidebar-category:
+  - title: CS
+    children:
+      - title: "알고리즘"
+        url: "/algorithm"
+        category: "알고리즘"
+      - title: "운영체제"
+        url: "/operating_system"
+        category: "운영체제"
+     - title: "데이터베이스"
+        url: "/database"
+        category: "데이터베이스"
+     - title: "운영체제"
+        url: "/operating_system"
+        category: "운영체제"
+      - title: "네트워크"
+        url: "/network"
+        category: "네트워크"
+  - title: Server
+    children:
+      - title: "spring"
+        url: "/spring"
+        category: "spring"
+  - title: 기타
+    children:
+      - title: "생각정리중"
+        url: "/thinking"
+        category: "생각정리중"
